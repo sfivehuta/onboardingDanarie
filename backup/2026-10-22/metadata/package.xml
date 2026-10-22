@@ -269,7 +269,13 @@
         <name>CustomNotificationType</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Account</members>
+        <members>Case</members>
+        <members>Contact</members>
+        <members>Lead</members>
+        <members>Opportunity</members>
+        <members>OpportunityLineItem</members>
+        <members>Product2</members>
         <name>CustomObject</name>
     </types>
     <types>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Erstellungsdatum</label>
+        <name>Created_Date__c</name>
+    </fields>
+    <fields>
+        <label>Sprachen</label>
+        <name>Languages__c</name>
+    </fields>
+    <fields>
+        <label>Niveau</label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation>Primär</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation>Sekundär</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation>Tertiär</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Speicherungsgrund (DSGVO)</label>
+        <name>Storage_Reason__c</name>
+    </fields>
+</CustomObjectTranslation>

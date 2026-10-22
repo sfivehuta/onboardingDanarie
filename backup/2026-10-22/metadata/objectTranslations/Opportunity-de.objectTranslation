@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Geschäftskonzept</label>
+        <name>Business_Concept__c</name>
+    </fields>
+    <fields>
+        <label>Geschäftsbereich</label>
+        <name>Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Business UNit 2</masterLabel>
+            <translation>Geschäftsbereich 2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Unit 1</masterLabel>
+            <translation>Geschäftsbereich 1</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Welche Wettbewerbsposition hat DANARIE?</help>
+        <label>Wettbewerbsposition</label>
+        <name>Competitive_Position__c</name>
+    </fields>
+    <fields>
+        <label>Wettbewerber</label>
+        <name>Competitors__c</name>
+        <picklistValues>
+            <masterLabel>EasySchrott.de</masterLabel>
+            <translation>EasySchrott.de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Papierfritze</masterLabel>
+            <translation>Papierfritze</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peglow Schrott &amp; Metall</masterLabel>
+            <translation>Peglow Schrott &amp; Metall</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schrott24</masterLabel>
+            <translation>Schrott24</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Aktuelle Generator(en)</label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label>Kundenprogramm</label>
+        <name>Customer_Programm__c</name>
+    </fields>
+    <fields>
+        <label>Liefer-/Installationsstatus</label>
+        <name>DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Abgeschlossen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation>In Bearbeitung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation>Noch nicht begonnen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Rabattgenehmigungsstatus</label>
+        <name>Discount_Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Genehmigt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Ausstehend</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Abgelehnt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Rechtsprüfung</label>
+        <name>Legal_Review__c</name>
+    </fields>
+    <fields>
+        <label>Hauptwettbewerber</label>
+        <name>MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label>Maximaler ausstehender Rabatt</label>
+        <name>Max_Pending_Discount__c</name>
+    </fields>
+    <fields>
+        <label>Bedarfsbeschreibung</label>
+        <name>Need_Description__c</name>
+    </fields>
+    <fields>
+        <label>Anzahl Standorte</label>
+        <name>Number_of_Locations__c</name>
+    </fields>
+    <fields>
+        <label>Auftragsnummer</label>
+        <name>OrderNumber__c</name>
+    </fields>
+    <fields>
+        <label>Auftragsbestätigungsnummer</label>
+        <name>Order_Confirmation_Number__c</name>
+    </fields>
+    <fields>
+        <label>Ausstehende Rabattpositionen</label>
+        <name>Pending_Discount_Items__c</name>
+    </fields>
+    <fields>
+        <help>Hauptkontakt für diese Opportunity</help>
+        <label>Hauptkontakt</label>
+        <name>Primary_Contact__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Produktinteresse</label>
+        <name>Product_Interest__c</name>
+        <picklistValues>
+            <masterLabel>Interest 1</masterLabel>
+            <translation>Interesse 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>interest 2</masterLabel>
+            <translation>Interesse 2</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Angebot angehängt</label>
+        <name>Quote_Attached__c</name>
+    </fields>
+    <fields>
+        <label>Anforderungsbeschreibung</label>
+        <name>Requirement_Description__c</name>
+    </fields>
+    <fields>
+        <label>SIC-Code</label>
+        <name>SIC_Code__c</name>
+    </fields>
+    <fields>
+        <help>Verstecktes Hilfsfeld für phasenabhängige Validierungsregeln</help>
+        <label>Phasenreihenfolge</label>
+        <name>Stage_Order__c</name>
+    </fields>
+    <fields>
+        <help>Opportunity-Status</help>
+        <label>Status</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>bid</masterLabel>
+            <translation>Angebot</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>in progress</masterLabel>
+            <translation>in Bearbeitung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lost</masterLabel>
+            <translation>verloren</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>new</masterLabel>
+            <translation>neu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>no bid</masterLabel>
+            <translation>kein Angebot</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>won</masterLabel>
+            <translation>gewonnen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Speicherungsgrund (DSGVO)</label>
+        <name>Storage_Reason__c</name>
+    </fields>
+    <fields>
+        <label>Sendungsnummer</label>
+        <name>TrackingNumber__c</name>
+    </fields>
+    <fields>
+        <label>Kommentar zu Gewonnen/Verloren</label>
+        <name>Won_Lost_Comment__c</name>
+    </fields>
+    <fields>
+        <label>Grund für Gewonnen/Verloren</label>
+        <name>Won_Lost_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Competitor outcompeted us</masterLabel>
+            <translation>Wettbewerber war besser</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No USP</masterLabel>
+            <translation>Kein USP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation>Preis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rep Customer Relationship</masterLabel>
+            <translation>Beziehung zum Vertriebsmitarbeiter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USP worked</masterLabel>
+            <translation>USP hat gewirkt</translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Commercial --></label>
+        <name>Commercial</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Institutional --></label>
+        <name>Institutional</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- This opportunity has discount items pending approval. It can&apos;t be set to Closed Won until all pending discounts are resolved. --></errorMessage>
+        <name>Block_Closed_Won_Pending_Discounts</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a record type! --></errorMessage>
+        <name>Record_Type_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter a Close Date, before moving to the next stage. --></errorMessage>
+        <name>VR_Opp_NeedsAnalysis_CloseDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Select a Competitor, before moving to the next stage. --></errorMessage>
+        <name>VR_Opp_NeedsAnalysis_Competitors</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter an Amount, before moving to the next stage. --></errorMessage>
+        <name>VR_Opp_NeedsAnalysis_ExpectedRevenue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Discount Approval Status needs to be approved, before moving to the next stage. --></errorMessage>
+        <name>VR_Opp_Negotiation_DiscountApproval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Legal Review needs to be checked, before moving to the next stage. --></errorMessage>
+        <name>VR_Opp_Negotiation_LegalReview</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- OrderConfirmationNumber needs to have a value, before moving to the next stage. --></errorMessage>
+        <name>VR_Opp_Negotiation_OrderConfNumber</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- WonLostReason needs to have a value, before moving to the next stage. --></errorMessage>
+        <name>VR_Opp_Negotiation_WonLostReason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An active PriceBook needs to be attached to this Opportunity, before moving to the next stage. --></errorMessage>
+        <name>VR_Opp_Proposal_PriceBook</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QuoteAttached needs to be checked, before moving to the next stage. --></errorMessage>
+        <name>VR_Opp_Proposal_QuoteAttached</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Select a Business Unit, before moving to the next stage. --></errorMessage>
+        <name>VR_Opp_Qualification_BusinessUnit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Select a Lead Source, before moving to the next stage. --></errorMessage>
+        <name>VR_Opp_Qualification_LeadSource</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Select a Primary Contact, before moving to the next stage. --></errorMessage>
+        <name>VR_Opp_Qualification_PrimaryContact</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- DeliveryStatus --></label>
+        <name>DeliveryStatus</name>
+    </webLinks>
+</CustomObjectTranslation>

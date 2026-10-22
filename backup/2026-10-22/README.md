@@ -2,7 +2,7 @@
 
 - Org: `danarie` (Org Id `00Dbm000014hyXZEAY`, instance `crm-danarie-dev-ed.develop.my.salesforce.com`)
 - Format: Salesforce source format, API version 68.0
-- Content: 253 metadata types, all components of each type (`members: *`), 958 files
+- Content: 253 metadata types (all components of each type, `members: *`), plus the custom objects Account, Case, Contact, Lead, Opportunity, Product2 and OpportunityLineItem named explicitly, 971 files. Includes the German object translations deployed on 2026-10-22.
 - Folder `metadata/`: the retrieved source tree
 - Folder `manifest/package.xml`: the manifest used for the retrieve
 

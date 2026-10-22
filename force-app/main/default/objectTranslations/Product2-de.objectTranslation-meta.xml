@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <name>Freestyle_Number__c</name>
+        <label>Freestyle-Nummer</label>
+    </fields>
+    <fields>
+        <name>Internal_Classification__c</name>
+        <label>Interne Klassifizierung</label>
+        <help>Passende Klassifizierung für dieses Produkt eingeben</help>
+        <picklistValues>
+            <masterLabel>Massive Cable</masterLabel>
+            <translation>Massives Kabel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Big Cable</masterLabel>
+            <translation>Großes Kabel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Cable</masterLabel>
+            <translation>Kleines Kabel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiny Cable</masterLabel>
+            <translation>Winziges Kabel</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Is_Freestyle__c</name>
+        <label>Ist Freestyle</label>
+    </fields>
+</CustomObjectTranslation>

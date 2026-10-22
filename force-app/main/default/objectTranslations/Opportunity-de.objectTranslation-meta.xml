@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <name>Business_Concept__c</name>
+        <label>Geschäftskonzept</label>
+    </fields>
+    <fields>
+        <name>Business_Unit__c</name>
+        <label>Geschäftsbereich</label>
+        <picklistValues>
+            <masterLabel>Business Unit 1</masterLabel>
+            <translation>Geschäftsbereich 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business UNit 2</masterLabel>
+            <translation>Geschäftsbereich 2</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Competitive_Position__c</name>
+        <label>Wettbewerbsposition</label>
+        <help>Welche Wettbewerbsposition hat DANARIE?</help>
+    </fields>
+    <fields>
+        <name>Competitors__c</name>
+        <label>Wettbewerber</label>
+        <picklistValues>
+            <masterLabel>Peglow Schrott &amp; Metall</masterLabel>
+            <translation>Peglow Schrott &amp; Metall</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Papierfritze</masterLabel>
+            <translation>Papierfritze</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schrott24</masterLabel>
+            <translation>Schrott24</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EasySchrott.de</masterLabel>
+            <translation>EasySchrott.de</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>CurrentGenerators__c</name>
+        <label>Aktuelle Generator(en)</label>
+    </fields>
+    <fields>
+        <name>Customer_Programm__c</name>
+        <label>Kundenprogramm</label>
+    </fields>
+    <fields>
+        <name>DeliveryInstallationStatus__c</name>
+        <label>Liefer-/Installationsstatus</label>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation>In Bearbeitung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation>Noch nicht begonnen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Abgeschlossen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Discount_Approval_Status__c</name>
+        <label>Rabattgenehmigungsstatus</label>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Genehmigt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Ausstehend</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Abgelehnt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Legal_Review__c</name>
+        <label>Rechtsprüfung</label>
+    </fields>
+    <fields>
+        <name>MainCompetitors__c</name>
+        <label>Hauptwettbewerber</label>
+    </fields>
+    <fields>
+        <name>Max_Pending_Discount__c</name>
+        <label>Maximaler ausstehender Rabatt</label>
+    </fields>
+    <fields>
+        <name>Need_Description__c</name>
+        <label>Bedarfsbeschreibung</label>
+    </fields>
+    <fields>
+        <name>Number_of_Locations__c</name>
+        <label>Anzahl Standorte</label>
+    </fields>
+    <fields>
+        <name>OrderNumber__c</name>
+        <label>Auftragsnummer</label>
+    </fields>
+    <fields>
+        <name>Order_Confirmation_Number__c</name>
+        <label>Auftragsbestätigungsnummer</label>
+    </fields>
+    <fields>
+        <name>Pending_Discount_Items__c</name>
+        <label>Ausstehende Rabattpositionen</label>
+    </fields>
+    <fields>
+        <name>Primary_Contact__c</name>
+        <label>Hauptkontakt</label>
+        <help>Hauptkontakt für diese Opportunity</help>
+    </fields>
+    <fields>
+        <name>Product_Interest__c</name>
+        <label>Produktinteresse</label>
+        <picklistValues>
+            <masterLabel>Interest 1</masterLabel>
+            <translation>Interesse 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>interest 2</masterLabel>
+            <translation>Interesse 2</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Quote_Attached__c</name>
+        <label>Angebot angehängt</label>
+    </fields>
+    <fields>
+        <name>Requirement_Description__c</name>
+        <label>Anforderungsbeschreibung</label>
+    </fields>
+    <fields>
+        <name>SIC_Code__c</name>
+        <label>SIC-Code</label>
+    </fields>
+    <fields>
+        <name>Stage_Order__c</name>
+        <label>Phasenreihenfolge</label>
+        <help>Verstecktes Hilfsfeld für phasenabhängige Validierungsregeln</help>
+    </fields>
+    <fields>
+        <name>Status__c</name>
+        <label>Status</label>
+        <help>Opportunity-Status</help>
+        <picklistValues>
+            <masterLabel>new</masterLabel>
+            <translation>neu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bid</masterLabel>
+            <translation>Angebot</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>no bid</masterLabel>
+            <translation>kein Angebot</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>in progress</masterLabel>
+            <translation>in Bearbeitung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lost</masterLabel>
+            <translation>verloren</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>won</masterLabel>
+            <translation>gewonnen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Storage_Reason__c</name>
+        <label>Speicherungsgrund (DSGVO)</label>
+    </fields>
+    <fields>
+        <name>TrackingNumber__c</name>
+        <label>Sendungsnummer</label>
+    </fields>
+    <fields>
+        <name>Won_Lost_Comment__c</name>
+        <label>Kommentar zu Gewonnen/Verloren</label>
+    </fields>
+    <fields>
+        <name>Won_Lost_Reason__c</name>
+        <label>Grund für Gewonnen/Verloren</label>
+        <picklistValues>
+            <masterLabel>USP worked</masterLabel>
+            <translation>USP hat gewirkt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No USP</masterLabel>
+            <translation>Kein USP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation>Preis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rep Customer Relationship</masterLabel>
+            <translation>Beziehung zum Vertriebsmitarbeiter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor outcompeted us</masterLabel>
+            <translation>Wettbewerber war besser</translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

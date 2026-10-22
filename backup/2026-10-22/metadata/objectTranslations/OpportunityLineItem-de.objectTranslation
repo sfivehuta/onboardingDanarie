@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Rabattgenehmigungsstatus</label>
+        <name>Discount_Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Not required</masterLabel>
+            <translation>Nicht erforderlich</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Ausstehend</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Rabatt</label>
+        <name>Discount__c</name>
+    </fields>
+</CustomObjectTranslation>

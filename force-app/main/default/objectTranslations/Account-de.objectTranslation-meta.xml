@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <name>Active__c</name>
+        <label>Aktiv</label>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Nein</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Ja</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Business_Partner_Role__c</name>
+        <label>Geschäftspartnerrolle</label>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation>Interessent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation>Kunde</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier</masterLabel>
+            <translation>Lieferant</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Partner</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation>Distributor</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Business_Segments__c</name>
+        <label>Geschäftssegmente</label>
+        <help>Mindestens ein Geschäftssegment auswählen</help>
+        <picklistValues>
+            <masterLabel>Aerospace</masterLabel>
+            <translation>Luft- und Raumfahrt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automotive</masterLabel>
+            <translation>Automobil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defense</masterLabel>
+            <translation>Verteidigung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Automation</masterLabel>
+            <translation>Industrieautomation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications</masterLabel>
+            <translation>Telekommunikation</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Business_Unit__c</name>
+        <label>Geschäftsbereich</label>
+        <picklistValues>
+            <masterLabel>Business Unit 1</masterLabel>
+            <translation>Geschäftsbereich 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Unit 2</masterLabel>
+            <translation>Geschäftsbereich 2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Unit 3</masterLabel>
+            <translation>Geschäftsbereich 3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Unit 4</masterLabel>
+            <translation>Geschäftsbereich 4</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Competitors__c</name>
+        <label>Wettbewerber</label>
+        <picklistValues>
+            <masterLabel>Peglow Schrott &amp; Metall</masterLabel>
+            <translation>Peglow Schrott &amp; Metall</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Papierfritze</masterLabel>
+            <translation>Papierfritze</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schrott24</masterLabel>
+            <translation>Schrott24</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EasySchrott.de</masterLabel>
+            <translation>EasySchrott.de</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Created_Date__c</name>
+        <label>Erstellungsdatum</label>
+    </fields>
+    <fields>
+        <name>Current_Generators__c</name>
+        <label>Aktuelle Generatoren</label>
+    </fields>
+    <fields>
+        <name>CustomerPriority__c</name>
+        <label>Kundenpriorität</label>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Hoch</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Niedrig</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Mittel</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Customer_Number__c</name>
+        <label>Kundennummer</label>
+        <help>Als Kennung für externe Systeme ausfüllen</help>
+    </fields>
+    <fields>
+        <name>GDPR_Date__c</name>
+        <label>DSGVO-Datum</label>
+    </fields>
+    <fields>
+        <name>Number_of_Locations__c</name>
+        <label>Anzahl Standorte</label>
+    </fields>
+    <fields>
+        <name>Product_Interest__c</name>
+        <label>Produktinteresse</label>
+        <picklistValues>
+            <masterLabel>Interest 1</masterLabel>
+            <translation>Interesse 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest 2</masterLabel>
+            <translation>Interesse 2</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Requirement_Description__c</name>
+        <label>Anforderungsbeschreibung</label>
+    </fields>
+    <fields>
+        <name>SIC_Code__c</name>
+        <label>SIC-Code</label>
+    </fields>
+    <fields>
+        <name>SLAExpirationDate__c</name>
+        <label>SLA-Ablaufdatum</label>
+    </fields>
+    <fields>
+        <name>SLASerialNumber__c</name>
+        <label>SLA-Seriennummer</label>
+    </fields>
+    <fields>
+        <name>SLA__c</name>
+        <label>SLA</label>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation>Gold</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation>Silber</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation>Platin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation>Bronze</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Storage_Reason__c</name>
+        <label>Speicherungsgrund (DSGVO)</label>
+    </fields>
+    <fields>
+        <name>UpsellOpportunity__c</name>
+        <label>Upselling-Chance</label>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation>Vielleicht</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Nein</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Ja</translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

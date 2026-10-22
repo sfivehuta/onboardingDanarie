@@ -270,10 +270,6 @@
     </types>
     <types>
         <members>*</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
@@ -1011,6 +1007,16 @@
     <types>
         <members>*</members>
         <name>Workflow</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Case</members>
+        <members>Contact</members>
+        <members>Lead</members>
+        <members>Opportunity</members>
+        <members>Product2</members>
+        <members>OpportunityLineItem</members>
+        <name>CustomObject</name>
     </types>
     <version>68.0</version>
 </Package>
