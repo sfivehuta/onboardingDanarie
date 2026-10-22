@@ -1,0 +1,25 @@
+<template>
+    <template lwc:if={hasMatches}>
+        <div class="slds-scoped-notification slds-theme_warning slds-m-bottom_small" role="status">
+            <div class="slds-media">
+                <div class="slds-media__figure">
+                    <lightning-icon icon-name="utility:warning" size="small" alternative-text="Warning"></lightning-icon>
+                </div>
+                <div class="slds-media__body">
+                    <p class="slds-text-heading_small">{heading}</p>
+                    <p class="slds-m-bottom_x-small">Check these before converting so you don't create a duplicate opportunity.</p>
+                    <ul class="slds-list_dotted">
+                        <template for:each={opportunities} for:item="opp">
+                            <li key={opp.id}>
+                                <a href={opp.url}>{opp.name}</a>
+                                ({opp.accountName}, {opp.stageName}, closes
+                                <lightning-formatted-date-time value={opp.closeDate} time-zone="UTC"></lightning-formatted-date-time><template lwc:if={opp.amount}>,
+                                <lightning-formatted-number value={opp.amount} format-style="currency"></lightning-formatted-number></template>, owner {opp.ownerName})
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </template>
+</template>
